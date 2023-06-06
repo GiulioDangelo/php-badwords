@@ -15,11 +15,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-    <h1>testo originale <?= $testo; ?> <br> lunghezza testo originale <?= strlen($testo); ?></h1>
+    <h1>testo originale <?= $testo; ?></h1>
+    <h1>testo censurato <?= $testoCensurato; ?></h1>
 
     <h1>censura <?= $censura; ?></h1>
-    
-    <h1>testo censurato <?= $testoCensurato; ?></h1>
+    <h1>lunghezza testo originale <?= strlen($testo); ?></h1>
 
 </head>
 <body>
